@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="mode">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,10 @@
     <title>charlie montoya</title>
 </head>
 <body>
+    <div id="header">
+        <img class="mode dark" src="switch1.png">
+        <img class="mode light" src="switch2.png">
+    </div>
     <div id="containerHome">
         <div class="img"></div>
         <div class="txt">HELLO. CHARLIE MONTOYA. <br> UX/UI DESIGNER.</div>
@@ -18,6 +23,10 @@
         <div class="button"><a href="https://cpklmontoya.github.io/04_GitHubDemo/work.html"><span></span>work</a></div>
         <div class="button"><a href="https://cpklmontoya.github.io/04_GitHubDemo/cv.html"><span></span>cv</a></div>
     </div>
-    
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="lightmode.js"></script>
 </body>
 </html>

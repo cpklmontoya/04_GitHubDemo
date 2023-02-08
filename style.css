@@ -86,6 +86,23 @@ a {
     text-decoration: none;
 }
 
+.dark {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 75%;
+    height: 38px;
+    width: 50px;
+}
+
+.light {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 75.5%;
+    height: 38px;
+    width: 50px;
+    z-index: -1;
+}
+
 .work {
     transform: rotate(-90deg);
     position: fixed;

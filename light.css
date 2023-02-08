@@ -1,0 +1,104 @@
+body {
+    background-color: #d9d9d9;
+}
+
+@font-face {
+    font-family: 'aliens_and_cowsregular';
+    src: url('aliens_and_cows_trial-webfont.woff2') format('woff2'),
+         url('aliens_and_cows_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#containerHome {
+    position: absolute;
+    margin: auto;
+    height: 485px;
+    width: 831px;
+    background-color: #d9d9d9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    width: 248px;
+    height: 485px;
+    border-radius: 7px;
+    float: right;
+    color: transparent;
+    border-style: solid;
+    border-color: #9747FF;
+}
+
+.txt {
+    float: left;
+    position: absolute;
+    color: #111;
+    font-family: 'aliens_and_cowsregular';
+    font-size: 81px;
+    margin-top: 200px;
+}
+
+.button {
+    display: inline-block;
+    margin: 0 20px;
+    color: #d9d9d9;
+    background-color: transparent;
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+    width: 136px;
+    height: 50px;
+    text-align: center;
+    border: solid 1px;
+    border-color: #9747FF;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+span {
+    background: #9747FF;
+    height: 100%;
+    width: 0;
+    border-radius: 7px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    width: 100%;
+}
+
+.button:hover {
+    color: #d9d9d9;
+}
+
+a {
+    color: #111;
+    font-family: 'Francois One', sans-serif;
+    text-decoration: none;
+}
+
+.dark {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 75%;
+    height: 38px;
+    width: 50px;
+}
+
+.light {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 75.5%;
+    height: 38px;
+    width: 50px;
+    z-index: 0;
+}
