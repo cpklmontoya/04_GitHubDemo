@@ -125,6 +125,7 @@ a {
     border-style: solid;
     border-color: #D8B94E;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .homeLinkw {

@@ -6,3 +6,4 @@ $(".mode").on("click", function() {
         $("#mode").attr("href", "style.css")
     }
 });
+
