@@ -119,13 +119,80 @@ a {
 .imgWork {
     width: 312px;
     height: 319px;
-    border-radius: 7px;
     float: right;
     color: transparent;
-    border-style: solid;
-    border-color: #D8B94E;
     margin-top: 20px;
     overflow: hidden;
+    filter: grayscale(75%);
+    transition: filter 1s;
+}
+
+.imgWork:hover {
+    filter: grayscale(0);
+    visibility: visible;
+}
+
+.title {
+    color: #fff;
+    position:absolute;
+    text-align: center;
+    top: 40%;
+    left: 20%;
+    z-index: 500;
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+    border: solid 1px #111;
+    background-color: #111;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.title:hover {
+    opacity: 1;
+}
+
+.title2 {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 25%;
+    z-index: 500;
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+    border: solid 1px #111;
+    background-color: #111;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.title2:hover {
+    opacity: 1;
+}
+
+.title3 {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 20%;
+    z-index: 500;
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+    border: solid 1px #111;
+    background-color: #111;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.title3:hover {
+    opacity: 1;
 }
 
 .homeLinkw {
