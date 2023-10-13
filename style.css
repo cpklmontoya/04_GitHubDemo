@@ -22,7 +22,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.img {
+.imgHome {
     width: 248px;
     height: 485px;
     border-radius: 7px;
@@ -215,14 +215,15 @@ a {
 }
 
 .imgAbout {
-    height: 312px;
-    width: 696px;
+    height: 700px;
+    width: 700px;
     border-radius: 7px;
     float: left;
     color: transparent;
     border-style: solid;
     border-color: #D8B94E;
     margin: 10px;
+    overflow:hidden;
 }
 
 .about {
